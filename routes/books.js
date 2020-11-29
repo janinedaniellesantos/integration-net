@@ -117,7 +117,7 @@ router.patch('/:isbn', (request, response, next) =>{
 
 router.delete('/:isbn', (request, response, next) =>{
     BookSchema
-        .findOne(request.params.isbn, (error, result)=>{
+        .findOne({"isbn": request.params.isbn}, (error, result)=>{
             if (error) {
                 response.status(500).send(error);
             }else if (result){
