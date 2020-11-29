@@ -22,7 +22,7 @@ function HandleError(response, reason, message, code){
 router.post('/', (request, response, next) => {
     let newBook = request.body;
     //console.log(request.body);
-    if (!newBook.bookName || !newBook.authorFirstName || !newBook.authorLastName || !newBook.isbn){
+    if (!newBook.bookName || !newBook.authorName || !newBook.isbn || !newBook.price){
         HandleError(response, 'Missing Info', 'Form data missing', 500);
     }else{
         let book = new BookSchema({
@@ -125,7 +125,7 @@ router.delete('/:isbn', (request, response, next) =>{
                     if (error){
                         response.status(500).send(error);
                     }
-                    response.send({"deletedisbn": request.params.isbn});
+                    response.send({"deleted isbn": request.params.isbn});
                 });
             }else{
                 response.status(404).send({"isbn": request.params.isbn, "error":  "Not Found"});
