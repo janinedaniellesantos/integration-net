@@ -47,10 +47,10 @@ router.post('/', (request, response, next) => {
 });
 
 router.get('/', (request, response, next) => {
-    let name = request.query['name'];
-    if (name){
+    let author = request.query['author'];
+    if (author){
         BookSchema
-            .find({"bookName": name})
+            .find({"author": author})
             .exec( (error, books) => {
                 if (error){
                     response.send({"error": error});
