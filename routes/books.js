@@ -22,12 +22,17 @@ function HandleError(response, reason, message, code){
 router.post('/', (request, response, next) => {
     let newBook = request.body;
     //console.log(request.body);
-    if (!newBook.bookName || !newBook.authorName || !newBook.isbn || !newBook.price){
+    if (!newBook.bookName || !newBook.author || !newBook.isbn || !newBook.price){
         HandleError(response, 'Missing Info', 'Form data missing', 500);
-    }else{
+    }
+    const ISBN = require( 'isbn-validate' );
+    if(!ISBN.Validate(newBook.isbn)){
+        HandleError(response, 'Missing Info', 'invalid isbn', 404);
+    }
+    else{
         let book = new BookSchema({
             bookName: newBook.bookName,
-            authorName: newBook.authorName,
+            author: newBook.author,
             isbn: newBook.isbn,
             price: newBook.price
         });
