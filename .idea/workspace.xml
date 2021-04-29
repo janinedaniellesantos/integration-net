@@ -70,13 +70,6 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -85,7 +78,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606544689489</updated>
-      <workItem from="1606544690781" duration="16813000" />
+      <workItem from="1606544690781" duration="22831000" />
+      <workItem from="1607407103558" duration="303000" />
     </task>
     <servers />
   </component>
@@ -102,43 +96,44 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="738" y="138" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606545492687">
       <screen x="0" y="23" width="1280" height="724" />
     </state>
     <state x="738" y="138" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.724@0.23.1280.724" timestamp="1606545492687" />
-    <state width="1238" height="179" key="GridCell.Tab.0.bottom" timestamp="1606628268754">
+    <state width="1238" height="179" key="GridCell.Tab.0.bottom" timestamp="1606628574719">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
     <state width="1238" height="179" key="GridCell.Tab.0.bottom/0.23.1280.724@0.23.1280.724" timestamp="1606623489941" />
     <state width="1238" height="179" key="GridCell.Tab.0.bottom/0.23.1280.726@0.23.1280.726" timestamp="1606621630510" />
     <state width="1238" height="179" key="GridCell.Tab.0.bottom/0.23.1280.727@0.23.1280.727" timestamp="1606624628520" />
-    <state width="1238" height="179" key="GridCell.Tab.0.bottom/0.23.1280.728@0.23.1280.728" timestamp="1606628268754" />
+    <state width="1238" height="179" key="GridCell.Tab.0.bottom/0.23.1280.728@0.23.1280.728" timestamp="1606628574719" />
     <state width="1238" height="179" key="GridCell.Tab.0.bottom/0.23.1280.729@0.23.1280.729" timestamp="1606625861030" />
-    <state width="1238" height="179" key="GridCell.Tab.0.center" timestamp="1606628268753">
+    <state width="1238" height="179" key="GridCell.Tab.0.center" timestamp="1606628574718">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
     <state width="1238" height="179" key="GridCell.Tab.0.center/0.23.1280.724@0.23.1280.724" timestamp="1606623489940" />
     <state width="1238" height="179" key="GridCell.Tab.0.center/0.23.1280.726@0.23.1280.726" timestamp="1606621630505" />
     <state width="1238" height="179" key="GridCell.Tab.0.center/0.23.1280.727@0.23.1280.727" timestamp="1606624628519" />
-    <state width="1238" height="179" key="GridCell.Tab.0.center/0.23.1280.728@0.23.1280.728" timestamp="1606628268753" />
+    <state width="1238" height="179" key="GridCell.Tab.0.center/0.23.1280.728@0.23.1280.728" timestamp="1606628574718" />
     <state width="1238" height="179" key="GridCell.Tab.0.center/0.23.1280.729@0.23.1280.729" timestamp="1606625861029" />
-    <state width="1238" height="179" key="GridCell.Tab.0.left" timestamp="1606628268752">
+    <state width="1238" height="179" key="GridCell.Tab.0.left" timestamp="1606628574718">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
     <state width="1238" height="179" key="GridCell.Tab.0.left/0.23.1280.724@0.23.1280.724" timestamp="1606623489939" />
     <state width="1238" height="179" key="GridCell.Tab.0.left/0.23.1280.726@0.23.1280.726" timestamp="1606621630499" />
     <state width="1238" height="179" key="GridCell.Tab.0.left/0.23.1280.727@0.23.1280.727" timestamp="1606624628519" />
-    <state width="1238" height="179" key="GridCell.Tab.0.left/0.23.1280.728@0.23.1280.728" timestamp="1606628268752" />
+    <state width="1238" height="179" key="GridCell.Tab.0.left/0.23.1280.728@0.23.1280.728" timestamp="1606628574718" />
     <state width="1238" height="179" key="GridCell.Tab.0.left/0.23.1280.729@0.23.1280.729" timestamp="1606625861028" />
-    <state width="1238" height="179" key="GridCell.Tab.0.right" timestamp="1606628268754">
+    <state width="1238" height="179" key="GridCell.Tab.0.right" timestamp="1606628574718">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
     <state width="1238" height="179" key="GridCell.Tab.0.right/0.23.1280.724@0.23.1280.724" timestamp="1606623489940" />
     <state width="1238" height="179" key="GridCell.Tab.0.right/0.23.1280.726@0.23.1280.726" timestamp="1606621630509" />
     <state width="1238" height="179" key="GridCell.Tab.0.right/0.23.1280.727@0.23.1280.727" timestamp="1606624628519" />
-    <state width="1238" height="179" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1606628268754" />
+    <state width="1238" height="179" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1606628574718" />
     <state width="1238" height="179" key="GridCell.Tab.0.right/0.23.1280.729@0.23.1280.729" timestamp="1606625861029" />
   </component>
 </project>
